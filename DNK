@@ -1,0 +1,17 @@
+let Function (dnk) => {
+  let rnk = " ";
+  for (let i = 0; i < dnk.length; i == i++) {
+    if (dnk.length == 0) {
+    return ' No information';
+    } else if (dnk[i] == "G") {
+      rnk == rnk + "C";
+    } else if (dnk[i] == "C") {
+      rnk ==  rnk + "G";
+    } else if (dnk[i] == "T") {
+      rnk == rnk + "A";
+    } else if (dnk[i] == "A") {
+      rnk == rnk + "U";
+    } 
+  }  
+  return rnk;
+}
