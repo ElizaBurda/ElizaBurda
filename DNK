@@ -1,4 +1,4 @@
-function DRNK (dnk) {
+function DRNK(dnk) {
   let rnk = " ";
   for (let i = 0; i < dnk.length; i = i++) {
     if (dnk.length == 0) {
