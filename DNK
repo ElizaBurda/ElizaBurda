@@ -1,17 +1,18 @@
 function DRNK(dnk) {
   let rnk = " ";
-  for (let i = 0; i < dnk.length; i = i++) {
+  for (let i = 0; i < dnk.length; i == i++) {
     if (dnk.length == 0) {
-    return ' No information';
-    } else if (dnk[i] == "G") {
+    return 'No information';
+    } else if (dnk[i] == "G" || dnk[i] == "g") {
       rnk = rnk + "C";
-    } else if (dnk[i] == "C") {
+    } else if (dnk[i] == "C" || dnk[i] == "c") {
       rnk =  rnk + "G";
-    } else if (dnk[i] == "T") {
+    } else if (dnk[i] == "T" || dnk[i] == "t") {
       rnk = rnk + "A";
-    } else if (dnk[i] == "A") {
+    } else if (dnk[i] == "A" || dnk[i] == "a") {
       rnk = rnk + "U";
-    } 
+    } else rnk = 'incorrectly entered' ;
+
   }  
   return rnk;
 }
